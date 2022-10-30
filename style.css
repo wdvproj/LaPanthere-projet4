@@ -311,10 +311,6 @@ a:hover {
     min-width: 100px;
 }
 
-.nav-center .navbar-brand img {
-    margin: 0;
-}
-
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
@@ -378,39 +374,12 @@ a:hover {
         left: 0;
         right: 0;
     }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
 }
 
 .nav > li > .dropdown a {
     background: none!important;
     display: block;
     padding: 14px 15px;
-}
-
-nav .caret {
-    margin: 0 5px;
 }
 
 .dropdown-menu .dropdown-menu {
@@ -666,16 +635,6 @@ a {
     font-size: 36px;
 }
 
-.statement-bloc-text {
-    line-height: 26px;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
-    margin: auto auto auto auto;
-}
-
 p {
     font-size: 11px;
 }
@@ -683,11 +642,6 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -726,10 +680,6 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
-    color: #333333!important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -746,10 +696,6 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
-}
-
-.avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
@@ -843,9 +789,6 @@ h4 {
     .navbar .nav {
         max-width: 80%
     }
-    .nav-center.navbar .nav {
-        max-width: 100%
-    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -933,14 +876,6 @@ h4 {
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
-    }
-    .dropdown .dropdown a .caret {
-        float: none;
-        margin: 5px 0 0 10px!important;
-        border: 4px solid black;
-        border-bottom-color: transparent;
-        border-right-color: transparent;
-        border-left-color: transparent;
     }
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
