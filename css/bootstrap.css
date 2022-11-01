@@ -2030,7 +2030,7 @@ input[type=search] {
 input[type=checkbox],
 input[type=radio] {
     margin: 4px 0 0;
-    margin-top: 1px\9;
+    margin-top: 1px;
     line-height: normal
 }
 
@@ -2178,7 +2178,7 @@ input[type=search] {
 .radio input[type=radio],
 .radio-inline input[type=radio] {
     position: absolute;
-    margin-top: 4px\9;
+    margin-top: 4px;
     margin-left: -20px
 }
 
@@ -3214,7 +3214,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid black;/*solid\9*/
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -3301,7 +3301,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    /*filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)*/
 }
 
 .open>.dropdown-menu {
@@ -3350,7 +3350,7 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
+    border-bottom: 4px solid black;/*solid\9*/
 }
 
 .dropup .dropdown-menu,
@@ -4052,7 +4052,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -5083,7 +5083,7 @@ a.thumbnail:hover {
     color: #843534
 }
 
-@-webkit-keyframes progress-bar-stripes {
+/*@-webkit-keyframes progress-bar-stripes {
     from {
         background-position: 40px 0
     }
@@ -5099,7 +5099,7 @@ a.thumbnail:hover {
     to {
         background-position: 0 0
     }
-}
+}*/
 
 @keyframes progress-bar-stripes {
     from {
@@ -6610,7 +6610,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: black;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
@@ -6762,9 +6762,9 @@ button.close {
     position: fixed
 }
 
-@-ms-viewport {
+/*@-ms-viewport {
     width: device-width
-}
+}*/
 
 .visible-lg,
 .visible-md,
