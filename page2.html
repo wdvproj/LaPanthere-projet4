@@ -1,190 +1,188 @@
 <!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="création d'un site web, refonte de votre site web, graphistes, entreprise à Lyon, aider les entreprises">
-    <meta name="description" content="La Panthère est une entreprise de web design située à Lyon. Nous aimons collaborer avec des entreprises créatives et locales. Notre équipe talentueuse est reconnu pour réaliser un design qui allie l'élégance à votre projet. Ainsi que l'optimisation de votre site web pour les moteurs de recherche. Contactez-nous!">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="index, follow">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;700&display=swap" rel="stylesheet">
-	
-    
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-	<script src="https://kit.fontawesome.com/025746aad5.js" crossorigin="anonymous"></script>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8">
+			<meta name="keywords" content="création d'un site web, refonte de votre site web, graphistes, entreprise à Lyon, aider les entreprises">
+			<meta name="description" content="La Panthère est une entreprise de web design située à Lyon. Nous aimons collaborer avec des entreprises créatives et locales. Notre équipe talentueuse est reconnu pour réaliser un design qui allie l'élégance à votre projet. Ainsi que l'optimisation de votre site web pour les moteurs de recherche. Contactez-nous!">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="robots" content="index, follow">
+			<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+			
+			<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;700&display=swap" rel="stylesheet">
+			
+			
+			<script src="./js/jquery-2.1.0.js"></script>
+			<script src="./js/bootstrap.js"></script>
+			<script src="./js/blocs.js"></script>
+			<script src="./js/jqBootstrapValidation.js"></script>
+			<script src="./js/formHandler.js"></script>
+			<script src="https://kit.fontawesome.com/025746aad5.js" crossorigin="anonymous"></script>
 
-    <title>Contactez La Panthère, entreprise web design !</title>
+			<title>Contactez La Panthère, entreprise web design !</title>
 
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
-</head>
-<body>
-<!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<div class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Logo de La Panthère, agence de web design."></div>
-				<button id="nav-toggle" type="button" title="menu" aria-label="menu" class="ui-navbar-toggle navbar-toggle" aria-expanded="true" aria-controls="menu" aria-haspopup="true" data-toggle="collapse" data-target=".navbar-1">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul id="menu" class="site-navigation nav navbar-nav" role="menu" aria-labelledby="nav-toggle">
-					<li role="none">
-						<a href="index.html" role="menuitem">Accueil</a>
-					</li>
-					<li role="none">
-						<a href="#" role="menuitem">Contactez-nous !</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</div>
-<!-- bloc-0 END -->
-
-<!-- bloc-6 -->
-<div class="bloc bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-6">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center tc-white">
-					Parlez de votre projet à La Panthère,<br> entreprise web design à Lyon !
-				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-6 END -->
-
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<h2>Prise de contact avec La Panthère, agence web design à Lyon</h2>
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Votre message a été envoyé !" fail-msg="Désolés, il semble que notre serveur de messagerie ne réponde pas, désolés pour le désagrément!">
-					<div class="form-group">
-						<label class="label-font" for="name">
-							Nom
-						</label>
-						<p>
-							La saisie est obligatoire.
-						</p>
-						<input id="name" class="form-control" name="nom" required>
-					</div>
-					<div class="form-group">
-						<label class="label-font" for="email">
-							Adresse email
-						</label>
-						<p>
-							La saisie est obligatoire.<br> Exemple : example@example.com, example@example.fr, example@example.org...
-						</p>
-						<input id="email" class="form-control" type="email" name="email" required>
-					</div>
-					<div class="form-group">
-						<label class="label-font" for="input_504">
-							Comment avez-vous pris connaissance de notre agence ?
-						</label>
-						<p>
-							La saisie est obligatoire.
-						</p>
-						<input class="form-control" name="connaissance" required id="input_504">
-					</div>
-					<div class="form-group">
-						<label class="label-font" for="message">
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label>
-						<p>
-							La saisie est obligatoire.
-						</p>
-						<textarea id="message" class="form-control" name="projet" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" name="envoyer">
-						Envoyer
-					</button>
-				</form>
-			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-7 END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" title="Retour vers le haut de la page" aria-label="Retour vers le haut de la page"><span><i class="fa-solid fa-chevron-up"></i></span></a>
-<!-- ScrollToTop Button END-->
-
-
-<!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<h2 class="mg-md text-center tc-white">
-		Rejoignez-notre projet de web design à Lyon, sur les réseaux sociaux !
-	</h2>
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<p class="text-center white">
-					Agence La Panthère - Agence web basée à Lyon.<br>
-				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-twitter"></i><br>Twitter</span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-facebook-f"></i><br>Facebook</span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-dribbble"></i><br>Dribbble</span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-instagram"></i><br>Instagram</span></a>
-						</div>
+			
+		<!-- Analytics -->
+		
+		<!-- Analytics END -->
+		</head>	
+		<body>
+			<!-- Principal conteneur -->
+			<div class="page-container">
+			
+				<!-- bloc-0 -->
+				<div class="bloc bgc-white l-bloc " id="bloc-0" role="banner">
+					<div class="container bloc-sm">
+						<nav class="navbar row">
+							<div class="navbar-header">
+								<div class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Logo de La Panthère, agence de web design."></div>
+								<button id="nav-toggle" type="button" title="menu" aria-label="menu" class="ui-navbar-toggle navbar-toggle" aria-expanded="true" aria-controls="menu" aria-haspopup="true" data-toggle="collapse" data-target=".navbar-1">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+								<ul id="menu" class="site-navigation nav navbar-nav" role="menu" aria-labelledby="nav-toggle">
+									<li role="none">
+										<a href="index.html" role="menuitem">Accueil</a>
+									</li>
+									<li role="none">
+										<a href="#" role="menuitem">Contactez-nous !</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
 					</div>
 				</div>
+				<!-- bloc-0 END -->
+
+				<main>
+					<!-- bloc-6 -->
+					<section class="bloc bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-6">
+						<div class="container bloc-lg">
+							<div class="row">
+								<div class="col-sm-12">
+									<h1 class="text-center tc-white">
+										Parlez de votre projet à La Panthère,<br> entreprise web design à Lyon !
+									</h1>
+									<p class="text-center mg-lg tc-white tight-width-whitespace">
+										Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+										Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- bloc-6 END -->
+
+					<!-- bloc-7 -->
+					<section class="bloc bgc-white l-bloc" id="bloc-7">
+						<h2>Prise de contact avec La Panthère, agence web design à Lyon</h2>
+						<div class="container bloc-lg">
+							<div class="row">
+								<div class="col-sm-6">
+									<form id="form_1" novalidate success-msg="Votre message a été envoyé !" fail-msg="Désolés, il semble que notre serveur de messagerie ne réponde pas, désolés pour le désagrément!">
+										<div class="form-group">
+											<label class="label-font" for="name">
+												Nom
+											</label>
+											<p>
+												La saisie est obligatoire.
+											</p>
+											<input id="name" class="form-control" name="nom" required>
+										</div>
+										<div class="form-group">
+											<label class="label-font" for="email">
+												Adresse email
+											</label>
+											<p>
+												La saisie est obligatoire.<br> Exemple : example@example.com, example@example.fr, example@example.org...
+											</p>
+											<input id="email" class="form-control" type="email" name="email" required>
+										</div>
+										<div class="form-group">
+											<label class="label-font" for="input_504">
+												Comment avez-vous pris connaissance de notre agence ?
+											</label>
+											<p>
+												La saisie est obligatoire.
+											</p>
+											<input class="form-control" name="connaissance" required id="input_504">
+										</div>
+										<div class="form-group">
+											<label class="label-font" for="message">
+												Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+											</label>
+											<p>
+												La saisie est obligatoire.
+											</p>
+											<textarea id="message" class="form-control" name="projet" rows="4" cols="50" required></textarea>
+										</div> 
+										<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" name="envoyer">
+											Envoyer
+										</button>
+									</form>
+								</div>
+								<div class="col-sm-6">
+									<p>
+										contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- bloc-7 END -->
+
+					<!-- ScrollToTop Button -->
+					<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" title="Retour vers le haut de la page" aria-label="Retour vers le haut de la page"><span><i class="fa-solid fa-chevron-up"></i></span></a>
+					<!-- ScrollToTop Button END-->
+				</main>
+
+				<!-- Footer - bloc-8 -->
+				<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+					<h2 class="mg-md text-center tc-white">
+						Rejoignez-notre projet de web design à Lyon, sur les réseaux sociaux !
+					</h2>
+					<div class="container bloc-sm">
+						<div class="row">
+							<div class="col-sm-12">
+								<p class="text-center white">
+									Agence La Panthère - Agence web basée à Lyon.<br>
+								</p>
+								<div class="row row-no-gutters social">
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-twitter"></i><br>Twitter</span></a>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-facebook-f"></i><br>Facebook</span></a>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-dribbble"></i><br>Dribbble</span></a>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-instagram"></i><br>Instagram</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<!-- Footer - bloc-8 END -->
+
 			</div>
-		</div>
-	</div>
-</div>
-<!-- Footer - bloc-8 END -->
-
-</div>
-<!-- Principal conteneur END -->
-    
-
-</body>
-</html>
+			<!-- Principal conteneur END -->
+		</body>
+	</html>
