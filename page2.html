@@ -41,21 +41,19 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<div class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Logo de La Panthère, agence de web design."></div>
-				<button id="nav-toggle" type="button" title="menu" aria-label="menu" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<button id="nav-toggle" type="button" title="menu" aria-label="menu" class="ui-navbar-toggle navbar-toggle" aria-expanded="true" aria-controls="menu" aria-hashpopup="true" data-toggle="collapse" data-target=".navbar-1">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
+				<ul id="menu" class="site-navigation nav navbar-nav" role="menu" aria-labelledby="nav-toggle">
+					<li role="none">
+						<a href="index.html" role="menuitem">Accueil</a>
 					</li>
-					<li>
-					</li>
-					<li>
-						<a href="#">Contactez-nous !</a>
+					<li role="none">
+						<a href="#" role="menuitem">Contactez-nous !</a>
 					</li>
 				</ul>
 			</div>
