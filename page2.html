@@ -6,8 +6,8 @@
 			<meta name="description" content="La Panthère est une entreprise de web design située à Lyon. Nous aimons collaborer avec des entreprises créatives et locales. Notre équipe talentueuse est reconnu pour réaliser un design qui allie l'élégance à votre projet. Ainsi que l'optimisation de votre site web pour les moteurs de recherche. Contactez-nous!">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta name="robots" content="index, follow">
-			<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 			
+			<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 			<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 			<link rel="stylesheet" type="text/css" href="style.css">
 			<link rel="stylesheet" type="text/css" href="./css/et-line.css">
@@ -23,7 +23,7 @@
 			<script src="./js/formHandler.js"></script>
 			<script src="https://kit.fontawesome.com/025746aad5.js" crossorigin="anonymous"></script>
 
-			<title>Contactez La Panthère, entreprise web design !</title>
+			<title>Contactez La Panthère, entreprise de web design !</title>
 
 			
 		<!-- Analytics -->
@@ -39,7 +39,9 @@
 					<div class="container bloc-sm">
 						<nav class="navbar row">
 							<div class="navbar-header">
-								<div class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Logo de La Panthère, agence de web design."></div>
+								<div class="navbar-brand" href="index.html">
+									<img src="img/agence-la-panthere-monochrome.svg" alt="Logo de La Panthère, agence de web design.">
+								</div>
 								<button id="nav-toggle" type="button" title="menu" aria-label="menu" class="ui-navbar-toggle navbar-toggle" aria-expanded="true" aria-controls="menu" aria-haspopup="true" data-toggle="collapse" data-target=".navbar-1">
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
@@ -67,12 +69,13 @@
 						<div class="container bloc-lg">
 							<div class="row">
 								<div class="col-sm-12">
-									<h1 class="text-center tc-white">
-										Parlez de votre projet à La Panthère,<br> entreprise web design à Lyon !
+									<h1 class="h1-size text-center tc-white">
+										Parlez de votre projet à La Panthère,<br> entreprise de web design à Lyon !
 									</h1>
 									<p class="text-center mg-lg tc-white tight-width-whitespace">
-										Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-										Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+										Nous sommes ravis que vous souhaitiez collaborer avec notre agence. Votre projet nous intéresse. Nous souhaitons vous aider à réaliser votre projet.<br>
+										Voulez-vous créer votre site web ou faire la refonte de votre site web ? Quels sont vos objectifs commerciaux ? Quelle sera votre identité visuelle ? Avez-vous besoin d’optimiser votre site web pour les moteurs de recherches ?
+										Nous vous invitons à prendre connaissance des projets et des collaborations que nous avons réalisé.<br><br><a href="#bloc-4-portfolio" class="underline-italic tc-white">Voir les projets</a> 
 									</p>
 								</div>
 							</div>
@@ -82,97 +85,211 @@
 
 					<!-- bloc-7 -->
 					<section class="bloc bgc-white l-bloc" id="bloc-7">
-						<h2>Prise de contact avec La Panthère, agence web design à Lyon</h2>
+						<h2 class="mg-md text-center ltc-atomic-tangerine">
+							Formulaire de prise de contact avec La Panthère, agence de web design à Lyon
+						</h2>
+						<p class="text-center ltc-atomic-tangerine">
+							Le formulaire nous permettra de commencer notre collaboration sur de bonnes bases. Le soin que vous apportez à remplir le formulaire nous permet de mieux vous connaître et de discerner votre objectif. Partagez-nous votre projet en complétant le formulaire ci-dessous.
+						</p>
 						<div class="container bloc-lg">
 							<div class="row">
 								<div class="col-sm-6">
 									<form id="form_1" novalidate success-msg="Votre message a été envoyé !" fail-msg="Désolés, il semble que notre serveur de messagerie ne réponde pas, désolés pour le désagrément!">
 										<div class="form-group">
 											<label class="label-font" for="name">
-												Nom
+												Quel est votre nom ?
 											</label>
 											<p>
-												La saisie est obligatoire.
+												La saisie du champ est obligatoire. 
 											</p>
 											<input id="name" class="form-control" name="nom" required>
 										</div>
 										<div class="form-group">
 											<label class="label-font" for="email">
-												Adresse email
+												Quelle est votre adresse email ?
 											</label>
 											<p>
-												La saisie est obligatoire.<br> Exemple : example@example.com, example@example.fr, example@example.org...
+												La saisie du champ est obligatoire.<br>Exemples : example@example.com, example@example.fr, example@example.org...
 											</p>
 											<input id="email" class="form-control" type="email" name="email" required>
 										</div>
 										<div class="form-group">
 											<label class="label-font" for="input_504">
-												Comment avez-vous pris connaissance de notre agence ?
+												Comment avez-vous pris connaissance de notre agence La Panthère ? 
 											</label>
 											<p>
-												La saisie est obligatoire.
+												La saisie du champ est obligatoire. 
 											</p>
 											<input class="form-control" name="connaissance" required id="input_504">
 										</div>
 										<div class="form-group">
 											<label class="label-font" for="message">
-												Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+												Faites-nous part de votre projet en quelques lignes ! 
 											</label>
 											<p>
-												La saisie est obligatoire.
+												La saisie du champ est obligatoire.<br>S’agit-il d’une création de site web ou d’une refonte de site web ?...
 											</p>
 											<textarea id="message" class="form-control" name="projet" rows="4" cols="50" required></textarea>
 										</div> 
 										<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" name="envoyer">
-											Envoyer
+											Envoyez-nous votre projet !
 										</button>
 									</form>
-								</div>
-								<div class="col-sm-6">
-									<p>
-										contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-									</p>
 								</div>
 							</div>
 						</div>
 					</section>
 					<!-- bloc-7 END -->
 
+					<!-- bloc-4-portfolio -->
+					<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+						<h3 class="h3-size text-center">
+							Nos collaborations
+						</h3>
+						<p class="text-center">
+							Nous avons réalisé quatre projets différents. Des projets de création de site web, un projet de refonte de site web. Nous aidons des entreprises, à Lyon. 
+						</p>
+						<div class="row voffset-lg voffset">
+							<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+								<blockquote class="ltc-atomic-tangerine">
+									"L'agence La Panthère est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon."
+								</blockquote>
+								<cite class="ltc-atomic-tangerine">
+									Maxime Guibard, PDG de À vos fourchettes
+								</cite>
+							</div>
+						</div>
+						<div class="container bloc-lg">
+							<div class="row">
+								<div class="col-sm-12 text-center">
+									<p>
+										Parmi les articles suivants, nous vous présentons ces projets.
+									</p>
+								</div>
+							</div>
+							<div class="row tight-width-whitespace portfolio-row">
+								<article class="col-sm-6">
+									<div data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+										<img src="img/1.jpg" alt="Photo de livres, pour le projet d'un journal local." class="img-responsive portfolio-thumb">
+									</div>
+									<h4 class="mg-md text-center">
+										La refonte d'un site web pour un journal local
+									</h4>
+									<p class="text-center">
+										Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
+									</p>
+								</article>
+								<article class="col-sm-6">
+									<div data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
+										<img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Photo d'un photographe, pour le projet de photographes.">
+									</div>
+									<h4 class="mg-md text-center">
+										Création d'un site web pour photographes 
+									</h4>
+									<p class="text-center">
+										Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
+									</p>
+								</article>
+							</div>
+							<div class="row tight-width-whitespace portfolio-row">
+								<article class="col-sm-6">
+									<div data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
+										<img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Photo d'équipements audiovisuels, pour le projet d'un voyageur.">
+									</div>
+									<h4 class="mg-md text-center">
+										Création d'un site internet pour un voyageur 
+									</h4>
+									<p class="text-center">
+										Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur. 
+									</p>
+								</article>
+								<article class="col-sm-6">
+									<div data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
+										<img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Photo d'une réunion de travail, pour le projet d'une agence de mariage.">
+									</div>	
+									<h4 class="mg-md text-center">
+										Conception d'un site pour une agence de mariage 
+									</h4>
+									<p class="text-center">
+										Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
+									</p>
+								</article>
+							</div>
+						</div>
+					</section>
+					<!-- bloc-4-portfolio END -->
+
 					<!-- ScrollToTop Button -->
-					<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" title="Retour vers le haut de la page" aria-label="Retour vers le haut de la page" role="link"><span><i class="fa-solid fa-chevron-up"></i></span></a>
+					<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" title="Retour vers le haut de la page" aria-label="Retour vers le haut de la page" role="link">
+						<span>
+							<i class="fa-solid fa-chevron-up"></i>
+						</span>
+					</a>
 					<!-- ScrollToTop Button END-->
 				</main>
 
 				<!-- Footer - bloc-8 -->
 				<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-					<h2 class="mg-md text-center tc-white">
-						Rejoignez-notre projet de web design à Lyon, sur les réseaux sociaux !
-					</h2>
 					<div class="container bloc-sm">
 						<div class="row">
+							<h2 class="mg-md text-center tc-white">
+								Rejoignez-notre projet de web design à Lyon !
+							</h2>
+							<p class="text-center tc-white">
+								La Panthère est une entreprise de web design située à Lyon. Nous aimons collaborer avec des entreprises créatives et locales. Notre équipe talentueuse est reconnue pour réaliser un design qui allie l’élégance à votre projet. Ainsi que l’optimisation de votre site web pour les moteurs de recherche.<br>Contactez-nous !
+							</p>
+							<address class="ph-pb text-center ltc-atomic-tangerine bgc-white">
+								<dl class="foot">
+									<dt>Notre adresse email</dt>
+									<dd>
+										<a href="mailto:contact@agencelapanthere.com" class="underline-italic ltc-atomic-tangerine">contact@agencelapanthere.com</a>
+									</dd>
+									<dt>Où nous trouver ?</dt>
+									<dd>2 place Sathonay 69001 Lyon</dd>
+									<dt>Quand sommes-nous disponible ?</dt>
+									<dd>Nous sommes ouvert de 9h à 18h, du lundi au vendredi</dd>
+								</dl>	
+							</address>
 							<div class="col-sm-12">
-								<p class="text-center white">
-									Agence La Panthère - Agence web basée à Lyon.<br>
-								</p>
 								<div class="row row-no-gutters social">
 									<div class="col-sm-3">
 										<div class="text-center">
-											<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-twitter"></i><br>Twitter</span></a>
+											<a class="social" href="#">
+												<span class="icon-md">
+													<i class="fa-brands fa-twitter"></i>
+													<br>Twitter
+												</span>
+											</a>
 										</div>
 									</div>
 									<div class="col-sm-3">
 										<div class="text-center">
-											<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-facebook-f"></i><br>Facebook</span></a>
+											<a class="social" href="#">
+												<span class="icon-md">
+													<i class="fa-brands fa-facebook-f"></i>
+													<br>Facebook
+												</span>
+											</a>
 										</div>
 									</div>
 									<div class="col-sm-3">
 										<div class="text-center">
-											<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-dribbble"></i><br>Dribbble</span></a>
+											<a class="social" href="#">
+												<span class="icon-md">
+													<i class="fa-brands fa-dribbble"></i>
+													<br>Dribbble
+												</span>
+											</a>
 										</div>
 									</div>
 									<div class="col-sm-3">
 										<div class="text-center">
-											<a class="social" href="#"><span class="icon-md"><i class="fa-brands fa-instagram"></i><br>Instagram</span></a>
+											<a class="social" href="#">
+												<span class="icon-md">
+													<i class="fa-brands fa-instagram"></i>
+													<br>Instagram
+												</span>
+											</a>
 										</div>
 									</div>
 								</div>
